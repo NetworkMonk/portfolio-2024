@@ -78,7 +78,7 @@ export default function Reading() {
                     alt={book.title}
                     width="200"
                     height="200"
-                    className="object-contain min-h-full mx-auto lg:ml-0 lg:mr-auto"
+                    className="object-contain min-h-full mx-auto lg:ml-0 lg:mr-auto w-auto h-auto"
                   />
                 </div>
                 <div className="flex-shrink">

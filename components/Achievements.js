@@ -1,7 +1,7 @@
 "use client";
 
 import { Disclosure } from "@headlessui/react";
-import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
+import { PlusIcon, MinusIcon } from "@heroicons/react/24/outline";
 import SubHeader from "./SubHeader";
 
 export default function Achievements() {
@@ -30,7 +30,7 @@ export default function Achievements() {
       question: "Storage Solution in Go",
       answers: [
         "Tasked with building a bespoke storage service that could run on custom hosted infrastructure.",
-        "With the requirements being a high level of security and to maximise physical storage available. I used a combination of customer level AES-256-CBC encryption at rest, block level storage and data de-duplication.",
+        "With the requirements being a high level of security and to maximise physical storage available. I used a combination of customer level AES-256 encryption at rest, block level storage and data de-duplication.",
         "The resulting application, that was built entirely in Go, was an incredibly secure and performant online storage solution.",
       ],
     },
@@ -59,9 +59,9 @@ export default function Achievements() {
                       </span>
                       <span className="ml-6 flex h-7 items-center">
                         {open ? (
-                          <ChevronDownIcon className="inline-block h-4 w-4 -mt-2" />
+                          <MinusIcon className="inline-block h-4 w-4 -mt-2" />
                         ) : (
-                          <ChevronUpIcon className="inline-block h-4 w-4 -mt-2" />
+                          <PlusIcon className="inline-block h-4 w-4 -mt-2" />
                         )}
                       </span>
                     </Disclosure.Button>
@@ -71,7 +71,7 @@ export default function Achievements() {
                       return (
                         <p
                           key={answerIndex}
-                          className="text-base leading-7 text-gray-600 my-1"
+                          className="text-base leading-7 text-gray-600 my-3"
                         >
                           {answer}
                         </p>

@@ -32,7 +32,7 @@ export default function Skills() {
     "Microsoft Exchange",
   ];
   return (
-    <section className="p-10 md:p-16 xl:p-24 bg-brand-foreground">
+    <section className="p-10 md:p-16 xl:p-24 bg-stone-100 shadow">
       <SubHeader>Skills</SubHeader>
       <div className="mx-auto max-w-7xl lg:px-8">
         {skills.map((skill, skillIndex) => {

@@ -69,7 +69,7 @@ export default function IntroBanner() {
             person who never did anything.”
           </p>
           <p className="text-gray-400 mt-2">
-            -William Rosenberg, founder of Dunkin’ Donuts
+            -William Rosenberg, founder of Dunkin&apos; Donuts
           </p>
         </div>
       </div>
