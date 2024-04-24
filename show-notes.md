@@ -21,7 +21,8 @@ Now that we know what we are going to build. What do we build it in?
 - Next.js
 - Tailwind
 - Typescript?
-- Tooling up
+- Tooling up - setting up the project!
+- Running locally.
 
 ### Commits
 
@@ -32,14 +33,23 @@ Now that we know what we are going to build. What do we build it in?
 
 - Set up vercel and see the first preview branch.
 
-### Running locally
+## Chapter 2 - Application structure
 
-- How do we run the application locally.
+- Mobile first development, get the elements on the page.
+- Landing page, what are the elements we want visible straight away.
+  - Name
+  - What do I do?
+  - Headlines
+  - Contact Button
+  - Favourite Quote
+- Responsive design
+- What are the other sections we want on the page
 
-## Chapter 2 - Branding
+## Chapter 3 - Branding
 
-## Chapter 3 - Pages
+- What brand colours do we want to use?
+- What fonts do we want to use?
 
-## Chapter 4 - Navigation
+## Chapter 5 - Navigation
 
-## Chapter 5 - Animations
+## Chapter 6 - Animations
